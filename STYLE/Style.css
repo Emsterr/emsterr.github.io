@@ -17,3 +17,11 @@ ul li{
 body h2 {
 font-family: fantasy;
 }
+
+table,table tr td,
+table tr th {
+border:1px blue solid;
+border-spacing: px;
+border-collapse: collapse;
+}
+
