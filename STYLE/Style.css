@@ -1,0 +1,19 @@
+.red{
+    color: rgb(253, 112, 112);
+   
+}
+
+/*class called red that can be used whenever we want*/
+
+ol li{
+color: rgb(20, 6, 180);
+font-family: fantasy,sans-serif
+}
+
+ul li{
+    font-family: fantasy,sans-serif
+}  
+
+body h2 {
+font-family: fantasy;
+}
