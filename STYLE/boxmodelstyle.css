@@ -1,0 +1,51 @@
+/* CSS RESET*/
+*{ 
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+.box{
+    
+    border: 2px;color: black;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+width: 300px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 25px;
+margin-bottom: 25px;
+text-align: center;
+}
+
+.smallbox{
+    width: auto;
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.big-box{
+    background-color: rgb(175, 227, 210);
+    padding: 20px;
+}
+.box1{
+background-color: rgb(227, 153, 231);
+}
+.box2{
+    background-color: rgb(227, 153, 231);
+}
+a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    width: auto;
+    height: 100%;
+    padding: 20px;
+}
+a:hover{
+    background-color: rgb(91, 23, 97);
+    color: blueviolet;
+}
