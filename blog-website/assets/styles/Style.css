@@ -1,0 +1,53 @@
+/*TAGS*/
+a{
+color: rgb(24, 40, 141);
+text-decoration: none;
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:1.5;
+    background-color: rgb(184, 211, 144);
+}
+
+/*CLASSES*/
+
+.button{
+background-color: rgb(70, 161, 42);
+padding: .5em .75em;
+border: none;
+border-radius: .25em;
+color: #ffff;
+}
+
+.button:hover{
+    background-color:green
+    color(#ffff )
+} 
+
+
+.navbar{
+    border-bottom: 1px solid rgb(28, 59, 31);
+    padding: .5cm;
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-nav{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.navbar-item{
+    padding: .5em;
+    margin: 0 .5em;
+}
