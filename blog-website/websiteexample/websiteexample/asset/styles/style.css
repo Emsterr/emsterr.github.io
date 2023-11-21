@@ -1,0 +1,16 @@
+/*variables to be use across to the website*/
+
+:root{
+    --nav-ctrl-color: #000;
+    --nav-ctrl-size: 1.25rem;
+    --nav-ctrl-inner-size: 1rem;
+}
+
+.nav-dot{
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--nav-ctrl-color);
+    height: var(--nav-ctrl-size);
+    width: var(--nav-ctrl-size);
+    display: block
+}
