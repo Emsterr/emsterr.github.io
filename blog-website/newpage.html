@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="assets/styles/Style.css">
+    <link rel="stylesheet" href="assets/styles/grid.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            
+            <a href="index.html" class="navbar-brand">
+                Game Review
+            </a>
+            
+            <ul class="navbar-nav">
+                <li class="navbar-item">
+                    <a href="#" class="navbar-link">
+                        About Us
+                    </a>
+                </li>
+                
+                <li class="navbar-item">
+                    <a href="#" class="navbar-link">
+                        Blog
+                    </a>
+                </li>
+                
+            </ul>
+            <a href="#" class="button">
+                Contact Us
+            </a>
+            
+            
+            
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <div class="col-4">
+                    <main>
+
+                        <form action="mailto:info@flowerpower.com" method="post" enctype="">
+                            <div class="container">
+                                
+                                <!--this is  the first  and  last  name-->
+
+                                <div class="row">
+                                    <div class="col-6">
+                                        <label for="first-name-input">First Name</label>
+                                        <input type="text" id="first-name-input" name="first-name" placeholder="Joe">
+                                    </div>
+
+                                    <div class="col-6">
+                                        <label for="last-name-input">Last Name</label>
+                                        <input type="text" id="last-name-input" name="last-name-input" placeholder="Borg">
+                                    </div>
+                                    
+                                </div><!--this is the email  -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <label for="">Email Address</label>
+                                        <input type="text" id="email-address-input" name="email-adress" placeholder="joeborg@gmail.com">
+
+                                        <!--dropdown-->
+                                    </div>
+                                    
+
+                                    
+
+                                </div>
+                                <div class="row">
+                                    <!--this is -->
+                                    <div class="col-12">                                            
+                                        <label for="topic-dropdown-list">Topic</label>
+                                        <select name="topic" id="topic-dropdown-list">
+                                            <option value=""></option>
+                                            <option value="tech-suppost">Technical Support</option>
+                                            <option value="tech-suppost">suggestion</option>
+                                            <option value="tech-suppost">personal review</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                
+                                <!--subject-->
+                                <div class="row">
+                                    <label for="subject-input">Sbject</label>
+                                    <input type="text" name="subject-input" id="subject" placeholder="Please Help">
+                                </div>
+
+                                <!--message-->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <textarea name="message" id="message-textarea" cols="30" rows="10" placeholder="please type message here "></textarea>
+                                        <label for="message-textarea">Message</label>  
+                                    </div>
+                                </div>
+
+                                <!--this is  the buttom -->
+
+                                <div class="row">
+                                    <div class="col-6">
+                                        <button type="reset"> Cancel</button>
+                                    </div>
+
+                                    <div class="col-6">
+                                        <button>Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<footer>
+    <div class="container">
+        &copy; 2023, Emma
+    </div>
+</footer>
+
+</body>
+
+</html>

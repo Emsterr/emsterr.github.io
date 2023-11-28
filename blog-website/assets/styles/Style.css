@@ -5,13 +5,13 @@ text-decoration: none;
 }
 
 a:hover{
-    color: rgb(0, 0, 0);
+    color: rgb(191, 106, 214);
 }
 
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height:1.5;
-    background-color: rgb(184, 211, 144);
+    background-color: rgb(239, 239, 239);
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6{
 } 
 
 footer{
-    background-color: rgb(61, 90, 18);
+    background-color: rgb(38, 6, 47);
     color: aliceblue;
     font-size: .9em;
     padding: 1.11em 0;
@@ -42,7 +42,7 @@ footer{
 
 
 .button{
-background-color: rgb(70, 161, 42);
+background-color:rgb(38, 6, 47);
 padding: .5em .75em;
 border: none;
 border-radius: .25em;
