@@ -42,30 +42,41 @@
     <div class="container">
         <div class="row">
             <div class="col-8">
-                <div class="col-4">
                     <main>
 
-                        <form action="mailto:info@flowerpower.com" method="post" enctype="">
-                            <div class="container">
+                        <form 
+                        action="mailto:info@plant.com" 
+                        method="post"
+                         enctype="text/plain"
+                         class="contact-form">
+                            <div class="container" >
+                                 
+
+
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h3>Contact Us</h3>
+                                    </div>
+                                </div>
                                 
                                 <!--this is  the first  and  last  name-->
 
                                 <div class="row">
                                     <div class="col-6">
                                         <label for="first-name-input">First Name</label>
-                                        <input type="text" id="first-name-input" name="first-name" placeholder="Joe">
+                                        <input type="text" id="first-name-input" name="first-name" placeholder="Joe" required>
                                     </div>
 
                                     <div class="col-6">
                                         <label for="last-name-input">Last Name</label>
-                                        <input type="text" id="last-name-input" name="last-name-input" placeholder="Borg">
+                                        <input type="text" id="last-name-input" name="last-name-input" placeholder="Borg" required>
                                     </div>
                                     
                                 </div><!--this is the email  -->
                                 <div class="row">
                                     <div class="col-12">
                                         <label for="">Email Address</label>
-                                        <input type="text" id="email-address-input" name="email-adress" placeholder="joeborg@gmail.com">
+                                        <input type="text" id="email-address-input" name="email-adress" placeholder="joeborg@gmail.com" required>
 
                                         <!--dropdown-->
                                     </div>
@@ -96,7 +107,7 @@
                                 <!--message-->
                                 <div class="row">
                                     <div class="col-12">
-                                        <textarea name="message" id="message-textarea" cols="30" rows="10" placeholder="please type message here "></textarea>
+                                        <textarea name="message" id="message-textarea" cols="30" rows="10" placeholder="please type message here " required></textarea>
                                         <label for="message-textarea">Message</label>  
                                     </div>
                                 </div>
@@ -105,16 +116,35 @@
 
                                 <div class="row">
                                     <div class="col-6">
-                                        <button type="reset"> Cancel</button>
+                                        <button type="reset" class="button clear" >Cancel</button>
                                     </div>
 
                                     <div class="col-6">
-                                        <button>Submit</button>
+                                        <button type="submit" class="button">Submit</button >
                                     </div>
                                 </div>
                             </div>
                         </form>
                     </main>
+                </div>
+                <div class="col-4">
+                    <aside>
+                        <div class="contact-details">
+                            <h3>Snail Mail</h3>
+                            <p>
+                                22, flower,
+                                <br>
+                                Triq il-folklor
+                                <br>
+                                Birzebbugia
+                            </p>
+                            <!--horizontal rule a seperatorline-->
+                            <hr>
+                            <h3>Email</h3>
+                            <a href="mailto:info@plant.com">info@plant.com</a>
+
+                        </div>
+                    </aside>
                 </div>
             </div>
         </div>
