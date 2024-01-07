@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-    <link rel="stylesheet" href="assets/styles/Style.css">
+    <title>The Greenhouse/Blog</title>
     <link rel="stylesheet" href="assets/styles/grid.css">
+    <link rel="stylesheet" href="assets/styles/Style.css">
+
     
 </head>
-<body>
 
+<header>
     <nav class="navbar">
         <div class="container">
             
             <a href="index.html" class="navbar-brand">
-                The Greenhouse
+                The Greenhouse 
             </a>
             
             <ul class="navbar-nav">
@@ -31,119 +32,102 @@
                 </li>
                 
             </ul>
-            <a href="#" class="button">
+            <a href="contact.html" class="button">
                 Contact Us
             </a>
-            
-            
-            
         </div>
     </nav>
+</header>
 
+<body>
     <div class="container">
-        <div class="row">
-            <div class="col-8">
-                    <main>
-
-                        <form 
-                        action="mailto:info@plant.com" 
-                        method="post"
-                         enctype="text/plain"
-                         class="contact-form">
-                            <div class="container" >
-                                 
-
-
-                                <div class="row">
-                                    <div class="col-12">
-                                        <h3>Contact Us</h3>
-                                    </div>
-                                </div>
-                                
-                                <!--this is  the first  and  last  name-->
-
-                                <div class="row">
-                                    <div class="col-6">
-                                        <label for="first-name-input">First Name</label>
-                                        <input type="text" id="first-name-input" name="first-name"  required>
-                                    </div>
-
-                                    <div class="col-6">
-                                        <label for="last-name-input">Last Name</label>
-                                        <input type="text" id="last-name-input" name="last-name-input"  required>
-                                    </div>
-                                    
-                                </div><!--this is the email  -->
-                                <div class="row">
-                                    <div class="col-12">
-                                        <label for="">Email Address</label>
-                                        <input type="text" id="email-address-input" name="email-adress" placeholder="joeborg@gmail.com" required>
-
-                                        <!--dropdown-->
-                                    </div>
-                                    
-
-                                    
-
-                                </div>
-                                <div class="row">
-                                    <!--this is -->
-                                    <div class="col-12">                                            
-                                        <label for="topic-dropdown-list">Topic</label>
-                                        <select name="topic" id="topic-dropdown-list">
-                                            <option value=""></option>
-                                            <option value="tech-suppost">Technical Support</option>
-                                            <option value="tech-suppost">suggestion</option>
-                                            <option value="tech-suppost">personal posts</option>
-                                            <option value="tech-suppost">problems</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                
-                                <!--subject-->
-                                <div class="row">
-                                    <label for="subject-input">Sbject</label>
-                                    <input type="text" name="subject-input" id="subject" placeholder="Please Help">
-                                </div>
-
-                                <!--message-->
-                                <div class="row">
-                                    <div class="col-12">
-                                        <textarea name="message" id="message-textarea" cols="30" rows="10" placeholder="please type message here " required></textarea>
-                                        <label for="message-textarea">Message</label>  
-                                    </div>
-                                </div>
-
-                                <!--this is  the buttom -->
-
-                                <div class="row">
-                                    <div class="col-6">
-                                        <button type="reset" class="button clear" >Cancel</button>
-                                    </div>
-
-                                    <div class="col-6">
-                                        <button type="submit" class="button">Submit</button >
-                                    </div>
-                                </div>
+        <main>
+            <div class="row">
+                <div class="col-12">
+                    <form action="mailto:info@plant.com" method="post" enctype="text/plain" class="contact-form">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3>Contact Us</h3>
                             </div>
-                        </form>
-                    </main>
-                </div>
-                <div class="col-4">
-                    <aside>
-                  
-                    </aside>
+                        </div>
+                        
+                        <!--this is  the first  and  last  name-->
+
+                        <div class="row">
+                            <div class="col-6">
+                                <label for="first-name-input">First Name</label>
+                                <input type="text" id="first-name-input" name="first-name"  required>
+                            </div>
+
+                            <div class="col-6">
+                                <label for="last-name-input">Last Name</label>
+                                <input type="text" id="last-name-input" name="last-name-input"  required>
+                            </div>
+                        </div>
+                                
+                        <!--this is the email  -->
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="">Email Address</label>
+                                <input type="text" id="email-address-input" name="email-adress" placeholder="joeborg@gmail.com" required>
+
+                                <!--dropdown-->
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <!--this is -->
+                            <div class="col-12">                                            
+                                <label for="topic-dropdown-list">Topic</label>
+                                <select name="topic" id="topic-dropdown-list">
+                                    <option value=""></option>
+                                    <option value="tech-suppost">Technical Support</option>
+                                    <option value="tech-suppost">suggestion</option>
+                                    <option value="tech-suppost">personal posts</option>
+                                    <option value="tech-suppost">problems</option>
+                                </select>
+                            </div>
+                        </div>
+                                
+                        <!--subject-->
+                        <div class="row">
+                            <label for="subject-input">Sbject</label>
+                            <input type="text" name="subject-input" id="subject" placeholder="Please Help">
+                        </div>
+
+                        <!--message-->
+                        <div class="row">
+                            <div class="col-12">
+                                <textarea name="message" id="message-textarea" cols="30" rows="10" placeholder="please type message here " required></textarea>
+                                <label for="message-textarea">Message</label>  
+                            </div>
+                        </div>
+
+                        <!--this is  the buttom -->
+
+                        <div class="row">
+                            <div class="col-6">
+                                <button type="reset" class="button clear" >Cancel</button>
+                            </div>
+
+                            <div class="col-6">
+                                <button type="submit" class="button">Submit</button >
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
+        </main>
+    </div>
+        
+        
+
+    <footer>
+        <div class="container">
+            &copy; 2023, The Greenhouse
         </div>
-    </div>
-
-<footer>
-    <div class="container">
-        &copy; 2023, The Greenhouse
-    </div>
-</footer>
-
+    </footer>
+    
 </body>
-
 </html>
+
